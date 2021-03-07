@@ -13,7 +13,7 @@ func main() {
 	thirdGreeting := os.Getenv("INPUT_THIRDGREETING")
 
 	// Use those inputs in the actions logic
-	fmt.Println("Hello " + firstGreeting)
+	fmt.Println("Helloo " + firstGreeting)
 	fmt.Println("Hello " + secondGreeting)
 
 	// Someimes inputs are not "required" and we can build around that
